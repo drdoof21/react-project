@@ -23,7 +23,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    /* align-items: center; */
+    align-items: center;
   
     background-color: #2d2d2d;
     height: 100vh;
@@ -92,7 +92,7 @@
   }
   
   .add {
-    padding: 16px;
+    padding: 10px;
   }
   
   .add-form {
