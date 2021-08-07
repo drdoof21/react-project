@@ -1,10 +1,11 @@
+import React from 'react';
 import './style.css';
+import Paper from './components/Paper';
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <div className="frame">
+      <Paper>
             <section className="header">
               <button className="header-btn main-black-color">Add!</button>
               <h1 className="header-title">Todo list</h1>
@@ -48,8 +49,7 @@ function App() {
                 <span className="todo-text">Learning React</span>
               </div>      
             </section>
-        </div>
-      </div>
+      </Paper>
     </div>
   );
 }
